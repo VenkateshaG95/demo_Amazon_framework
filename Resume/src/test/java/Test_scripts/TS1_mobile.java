@@ -24,14 +24,10 @@ public class TS1_mobile extends Base_class
 		
 		wait.until(ExpectedConditions.elementToBeClickable(pmc.mobile_tab())).click();
 		
-		wait.until(ExpectedConditions.elementToBeClickable(pmc.phone5G_tab())).click();
+		wait.until(ExpectedConditions.visibilityOf(pmc.SearchPro_text())).sendKeys("iphone 13");
 		
-		Utility_Methods1.ScllIntoVi(driver, pmc.seeAll_button());
-		
-		Utility_Methods1.scllBy(driver,0,-200);
-		
-		pmc.seeAll_button().click();
-		
+		pmc.Search_btn().click();
+			
 		wait.until(ExpectedConditions.visibilityOf(pmc.Apple_iphone13())).click();
 		
 		Utility_Methods1.window_handles(driver, 1);

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 30 18:15:17 IST 2023</td>
+<td>Started on:</td><td>Wed Feb 01 17:29:34 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>160 seconds (160647 ms)</td>
+<tr><td>Total time:</td><td>243 seconds (243575 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,121 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_scripts.TS1_mobile.Iphone13_AddToCart()'><b>Iphone13_AddToCart</b><br>Test class: Test_scripts.TS1_mobile</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@href=&apos;/b?node=22424253031&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Test_scripts.TS1_mobile.Iphone13_AddToCart(TS1_mobile.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href=&apos;/b?node=22424253031&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-2978KLT&apos;, ip: &apos;192.168.2.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13452, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c7f48256-879a-4981-abc2-61bc82e6ceb7
+*** Element info: {Using=xpath, value=//a[@href=&apos;/b?node=22424253031&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1406004470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1406004470'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@href=&apos;/b?node=22424253031&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Test_scripts.TS1_mobile.Iphone13_AddToCart(TS1_mobile.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href=&apos;/b?node=22424253031&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-2978KLT&apos;, ip: &apos;192.168.2.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13452, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c7f48256-879a-4981-abc2-61bc82e6ceb7
+*** Element info: {Using=xpath, value=//a[@href=&apos;/b?node=22424253031&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more
+</pre></div></td>
+<td>46</td>
+<td>Test_scripts.TS1_mobile@66d3eec0</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,68 +191,55 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Test_scripts.TS2_fashion.Random_FT()'><b>Random_FT</b><br>Test class: Test_scripts.TS2_fashion<br/>
-<a href="#Output-1298483237" onClick='toggleBox("Output-1298483237", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1298483237" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1298483237">
-Test script is pass<br/>
-</div>
-</td>
-<td></td>
-<td>64</td>
-<td>Test_scripts.TS2_fashion@36916eb0</td></tr>
-<tr>
-<td title='Test_scripts.TS1_mobile.Iphone13_AddToCart()'><b>Iphone13_AddToCart</b><br>Test class: Test_scripts.TS1_mobile<br/>
-<a href="#Output-2062667107" onClick='toggleBox("Output-2062667107", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2062667107" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2062667107">
-Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1<br/>
-</div>
-</td>
-<td></td>
-<td>20</td>
-<td>Test_scripts.TS1_mobile@66d3eec0</td></tr>
-<tr>
 <td title='Test_scripts.TS2_fashion.Newest_Fastrack_watch()'><b>Newest_Fastrack_watch</b><br>Test class: Test_scripts.TS2_fashion<br/>
-<a href="#Output-810672306" onClick='toggleBox("Output-810672306", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1677921169" onClick='toggleBox("Output-1677921169", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-810672306" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-810672306">
+<a href="#Output-1677921169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677921169">
 Newest arrival of fastrak watch is New Fastrack Reflex Beat+ 1.69” UltraVU Display|500 Nits Brightness|60 Sports Modes|24*7 Heart Rate Monitor|SpO2 Monitor|Sleep Tracker|IP68 Water Resistant|Music & Camera Control<br/>
 Unit price of the particular product is ₹ 1,495<br/>
 </div>
 </td>
 <td></td>
-<td>14</td>
+<td>19</td>
 <td>Test_scripts.TS2_fashion@36916eb0</td></tr>
 <tr>
 <td title='Test_scripts.TS1_mobile.Oneplus_mobiles_prices()'><b>Oneplus_mobiles_prices</b><br>Test class: Test_scripts.TS1_mobile<br/>
-<a href="#Output-409596180" onClick='toggleBox("Output-409596180", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1884422865" onClick='toggleBox("Output-1884422865", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-409596180" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-409596180">
-OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999<br/>
+<a href="#Output-1884422865" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1884422865">
 OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999<br/>
-OnePlus 10R 5G (Forest Green, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹32,999<br/>
+OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999<br/>
+OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999<br/>
+OnePlus 10R 5G (Forest Green, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹34,999<br/>
 OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999<br/>
-OnePlus 10 Pro 5G (Emerald Forest, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹61,999<br/>
+OnePlus 10 Pro 5G (Emerald Forest, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹60,999<br/>
 (Renewed) OnePlus 6 (Midnight Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹12,499<br/>
 (Renewed) OnePlus 5T (Midnight Black, 64GB)    mobile price in amazon.in is ₹10,499<br/>
-OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹32,999<br/>
+OnePlus Nord 2T 5G (Gray Shadow, 12GB Storage, 256GB Storage)    mobile price in amazon.in is ₹33,999<br/>
+OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹34,999<br/>
 OnePlus 10T 5G (Moonstone Black, 12GB RAM, 256GB Storage)    mobile price in amazon.in is ₹54,999<br/>
-(Renewed) OnePlus Nord CE 5G (Blue Void, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹49,999<br/>
+(Renewed) OnePlus 9 5G Astral Black, 8GB RAM, 128GB Storage    mobile price in amazon.in is ₹49,999<br/>
 OnePlus 10T 5G (Moonstone Black, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹55,999<br/>
-OnePlus 10T 5G (Moonstone Black, 16GB RAM, 256GB Storage)    mobile price in amazon.in is ₹15,999<br/>
-(Renewed) OnePlus 6T (Mirror Black, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹11,599<br/>
-(Renewed) OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹13,299<br/>
-(Renewed) OnePlus 5T (Midnight Black, 128GB)    mobile price in amazon.in is ₹10,499<br/>
+(Renewed) OnePlus 9R 5G (Carbon Black, 12GB RAM, 256 GB Storage)    mobile price in amazon.in is ₹15,999<br/>
 </div>
 </td>
 <td></td>
-<td>10</td>
+<td>11</td>
 <td>Test_scripts.TS1_mobile@66d3eec0</td></tr>
+<tr>
+<td title='Test_scripts.TS2_fashion.Random_FT()'><b>Random_FT</b><br>Test class: Test_scripts.TS2_fashion<br/>
+<a href="#Output-909516251" onClick='toggleBox("Output-909516251", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-909516251" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-909516251">
+Test script is pass<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>Test_scripts.TS2_fashion@36916eb0</td></tr>
 </table><p>
 </body>
 </html>

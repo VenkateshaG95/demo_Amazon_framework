@@ -1,149 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1]]>
     </line>
-    <line>
-      <![CDATA[OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus 10R 5G (Forest Green, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹32,999]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus 10 Pro 5G (Emerald Forest, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹61,999]]>
-    </line>
-    <line>
-      <![CDATA[(Renewed) OnePlus 6 (Midnight Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹12,499]]>
-    </line>
-    <line>
-      <![CDATA[(Renewed) OnePlus 5T (Midnight Black, 64GB)    mobile price in amazon.in is ₹10,499]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹32,999]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus 10T 5G (Moonstone Black, 12GB RAM, 256GB Storage)    mobile price in amazon.in is ₹54,999]]>
-    </line>
-    <line>
-      <![CDATA[(Renewed) OnePlus Nord CE 5G (Blue Void, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹49,999]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus 10T 5G (Moonstone Black, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹55,999]]>
-    </line>
-    <line>
-      <![CDATA[OnePlus 10T 5G (Moonstone Black, 16GB RAM, 256GB Storage)    mobile price in amazon.in is ₹15,999]]>
-    </line>
-    <line>
-      <![CDATA[(Renewed) OnePlus 6T (Mirror Black, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹11,599]]>
-    </line>
-    <line>
-      <![CDATA[(Renewed) OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹13,299]]>
-    </line>
-    <line>
-      <![CDATA[(Renewed) OnePlus 5T (Midnight Black, 128GB)    mobile price in amazon.in is ₹10,499]]>
-    </line>
-    <line>
-      <![CDATA[Newest arrival of fastrak watch is New Fastrack Reflex Beat+ 1.69” UltraVU Display|500 Nits Brightness|60 Sports Modes|24*7 Heart Rate Monitor|SpO2 Monitor|Sleep Tracker|IP68 Water Resistant|Music & Camera Control]]>
-    </line>
-    <line>
-      <![CDATA[Unit price of the particular product is ₹ 1,495]]>
-    </line>
-    <line>
-      <![CDATA[Test script is pass]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-01-30T18:15:17 IST" name="Suite" finished-at="2023-01-30T18:17:58 IST" duration-ms="160647">
+  <suite started-at="2023-02-02T14:11:17 IST" name="Default suite" finished-at="2023-02-02T14:12:17 IST" duration-ms="59644">
     <groups>
     </groups>
-    <test started-at="2023-01-30T18:15:17 IST" name="Test" finished-at="2023-01-30T18:17:58 IST" duration-ms="160647">
+    <test started-at="2023-02-02T14:11:17 IST" name="Default test" finished-at="2023-02-02T14:12:17 IST" duration-ms="59644">
       <class name="Test_scripts.TS1_mobile">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-01-30T18:15:17 IST" name="launch_browser" finished-at="2023-01-30T18:15:27 IST" duration-ms="10036" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS1_mobile@618425b5]" started-at="2023-02-02T14:11:18 IST" name="launch_browser" finished-at="2023-02-02T14:11:39 IST" duration-ms="21259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="Iphone13_AddToCart()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-01-30T18:15:27 IST" name="Iphone13_AddToCart" finished-at="2023-01-30T18:15:48 IST" duration-ms="20420" status="PASS">
+        <test-method signature="Iphone13_AddToCart()[pri:0, instance:Test_scripts.TS1_mobile@618425b5]" started-at="2023-02-02T14:11:39 IST" name="Iphone13_AddToCart" finished-at="2023-02-02T14:12:09 IST" duration-ms="30516" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- Iphone13_AddToCart -->
-        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-01-30T18:15:48 IST" name="closeapp" finished-at="2023-01-30T18:15:50 IST" duration-ms="2548" status="PASS">
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS1_mobile@618425b5]" started-at="2023-02-02T14:12:09 IST" name="closeapp" finished-at="2023-02-02T14:12:17 IST" duration-ms="7779" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Iphone13_AddToCart status=SUCCESS method=TS1_mobile.Iphone13_AddToCart()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0] output=Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-01-30T18:15:50 IST" name="launch_browser" finished-at="2023-01-30T18:16:01 IST" duration-ms="11162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="Oneplus_mobiles_prices()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-01-30T18:16:01 IST" name="Oneplus_mobiles_prices" finished-at="2023-01-30T18:16:11 IST" duration-ms="10059" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus 10R 5G (Forest Green, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹32,999]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus 10 Pro 5G (Emerald Forest, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹61,999]]>
-            </line>
-            <line>
-              <![CDATA[(Renewed) OnePlus 6 (Midnight Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹12,499]]>
-            </line>
-            <line>
-              <![CDATA[(Renewed) OnePlus 5T (Midnight Black, 64GB)    mobile price in amazon.in is ₹10,499]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage, 80W SuperVOOC)    mobile price in amazon.in is ₹32,999]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus 10T 5G (Moonstone Black, 12GB RAM, 256GB Storage)    mobile price in amazon.in is ₹54,999]]>
-            </line>
-            <line>
-              <![CDATA[(Renewed) OnePlus Nord CE 5G (Blue Void, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹49,999]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus 10T 5G (Moonstone Black, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹55,999]]>
-            </line>
-            <line>
-              <![CDATA[OnePlus 10T 5G (Moonstone Black, 16GB RAM, 256GB Storage)    mobile price in amazon.in is ₹15,999]]>
-            </line>
-            <line>
-              <![CDATA[(Renewed) OnePlus 6T (Mirror Black, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹11,599]]>
-            </line>
-            <line>
-              <![CDATA[(Renewed) OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹13,299]]>
-            </line>
-            <line>
-              <![CDATA[(Renewed) OnePlus 5T (Midnight Black, 128GB)    mobile price in amazon.in is ₹10,499]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Oneplus_mobiles_prices -->
-        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-01-30T18:16:11 IST" name="closeapp" finished-at="2023-01-30T18:16:13 IST" duration-ms="1998" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Oneplus_mobiles_prices status=SUCCESS method=TS1_mobile.Oneplus_mobiles_prices()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0] output=OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]]>
+                <![CDATA[[TestResult name=Iphone13_AddToCart status=SUCCESS method=TS1_mobile.Iphone13_AddToCart()[pri:0, instance:Test_scripts.TS1_mobile@618425b5] output=Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1]]]>
               </value>
             </param>
           </params>
@@ -151,55 +33,6 @@
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- Test_scripts.TS1_mobile -->
-      <class name="Test_scripts.TS2_fashion">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-01-30T18:16:13 IST" name="launch_browser" finished-at="2023-01-30T18:16:22 IST" duration-ms="8127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="Newest_Fastrack_watch()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-01-30T18:16:22 IST" name="Newest_Fastrack_watch" finished-at="2023-01-30T18:16:36 IST" duration-ms="14443" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Newest arrival of fastrak watch is New Fastrack Reflex Beat+ 1.69” UltraVU Display|500 Nits Brightness|60 Sports Modes|24*7 Heart Rate Monitor|SpO2 Monitor|Sleep Tracker|IP68 Water Resistant|Music & Camera Control]]>
-            </line>
-            <line>
-              <![CDATA[Unit price of the particular product is ₹ 1,495]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Newest_Fastrack_watch -->
-        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-01-30T18:16:36 IST" name="closeapp" finished-at="2023-01-30T18:16:40 IST" duration-ms="4088" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Newest_Fastrack_watch status=SUCCESS method=TS2_fashion.Newest_Fastrack_watch()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0] output=Newest arrival of fastrak watch is New Fastrack Reflex Beat+ 1.69” UltraVU Display|500 Nits Brightness|60 Sports Modes|24*7 Heart Rate Monitor|SpO2 Monitor|Sleep Tracker|IP68 Water Resistant|Music & Camera Control]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-01-30T18:16:40 IST" name="launch_browser" finished-at="2023-01-30T18:16:51 IST" duration-ms="10701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="Random_FT()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-01-30T18:16:51 IST" name="Random_FT" finished-at="2023-01-30T18:17:55 IST" duration-ms="64202" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test script is pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Random_FT -->
-        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-01-30T18:17:55 IST" name="closeapp" finished-at="2023-01-30T18:17:58 IST" duration-ms="2770" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Random_FT status=SUCCESS method=TS2_fashion.Random_FT()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0] output=Test script is pass]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-      </class> <!-- Test_scripts.TS2_fashion -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
