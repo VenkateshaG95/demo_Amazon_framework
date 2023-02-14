@@ -121,11 +121,11 @@ public class TS2_fashion extends Base_class
 		
 		Utility_Methods1.Soft_AssertEquals(driver.getTitle(), Utility_Methods1.Title_Property("sportswear"));
 		
-		Utility_Methods1.soft_AssertAll();
-		
 		Thread.sleep(5000);
 		
 		Reporter.log("Test script is pass");
+		
+		Utility_Methods1.soft_AssertAll();
 		
 	}
 }

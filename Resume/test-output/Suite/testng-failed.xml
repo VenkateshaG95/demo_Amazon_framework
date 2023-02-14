@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Test_scripts.TS1_mobile">
+      <class name="Test_scripts.TS2_fashion">
         <methods>
           <include name="closeapp"/>
-          <include name="Iphone13_AddToCart"/>
           <include name="launch_browser"/>
+          <include name="Random_FT"/>
         </methods>
-      </class> <!-- Test_scripts.TS1_mobile -->
+      </class> <!-- Test_scripts.TS2_fashion -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
