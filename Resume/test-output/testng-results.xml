@@ -1,31 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus 11 5G (Titan Black, 8GB RAM, 128GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹56,999]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus 11 5G (Eternal Green, 16GB RAM, 256GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹61,999]]>
+    </line>
+    <line>
+      <![CDATA[(Renewed) OnePlus Nord 5G Gray Onyx, 8GB RAM, 128GB Storage    mobile price in amazon.in is ₹22,899]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus 11 5G (Titan Black, 16GB RAM, 256GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹61,999]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹56,999]]>
+    </line>
+    <line>
+      <![CDATA[(Renewed) OnePlus 5T (Midnight Black, 64GB)    mobile price in amazon.in is ₹10,599]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus 10T 5G (Moonstone Black, 16GB RAM, 256GB Storage)    mobile price in amazon.in is ₹55,999]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus 10T 5G (Moonstone Black, 12GB RAM, 256GB Storage)    mobile price in amazon.in is ₹54,999]]>
+    </line>
+    <line>
+      <![CDATA[(Renewed) OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹13,699]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus 10T 5G (Jade Green, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹49,999]]>
+    </line>
+    <line>
+      <![CDATA[(Renewed) OnePlus 6T (Mirror Black, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹38,299]]>
+    </line>
+    <line>
+      <![CDATA[Newest arrival of fastrak watch is Fastrack Mens 55.50 x 11.30 x 48 mm Space-Disc Hand Black Dial Leather Analog Watch - NN3204KL01 (Not assigned,Not Assigned)]]>
+    </line>
+    <line>
+      <![CDATA[Unit price of the particular product is ₹ 2,425]]>
+    </line>
     <line>
       <![CDATA[Test script is pass]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-04T20:23:26 IST" name="Default suite" finished-at="2023-02-04T20:25:08 IST" duration-ms="101556">
+  <suite started-at="2023-02-17T10:38:54 IST" name="Suite" finished-at="2023-02-17T10:43:37 IST" duration-ms="282608">
     <groups>
     </groups>
-    <test started-at="2023-02-04T20:23:26 IST" name="Default test" finished-at="2023-02-04T20:25:08 IST" duration-ms="101556">
-      <class name="Test_scripts.TS2_fashion">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS2_fashion@618425b5]" started-at="2023-02-04T20:23:26 IST" name="launch_browser" finished-at="2023-02-04T20:23:50 IST" duration-ms="23323" status="PASS">
+    <test started-at="2023-02-17T10:38:54 IST" name="Test" finished-at="2023-02-17T10:43:37 IST" duration-ms="282608">
+      <class name="Test_scripts.TS1_mobile">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-02-17T10:38:55 IST" name="launch_browser" finished-at="2023-02-17T10:39:24 IST" duration-ms="29043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="Random_FT()[pri:0, instance:Test_scripts.TS2_fashion@618425b5]" started-at="2023-02-04T20:23:50 IST" name="Random_FT" finished-at="2023-02-04T20:25:03 IST" duration-ms="73150" status="PASS">
+        <test-method signature="Iphone13_AddToCart()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-02-17T10:39:24 IST" name="Iphone13_AddToCart" finished-at="2023-02-17T10:39:51 IST" duration-ms="27445" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Iphone13_AddToCart -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-02-17T10:39:51 IST" name="closeapp" finished-at="2023-02-17T10:39:58 IST" duration-ms="6874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Iphone13_AddToCart status=SUCCESS method=TS1_mobile.Iphone13_AddToCart()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0] output=Apple iPhone 13 (128GB) - Midnight is added to cart with quantity 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-02-17T10:39:58 IST" name="launch_browser" finished-at="2023-02-17T10:40:19 IST" duration-ms="20726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="Oneplus_mobiles_prices()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-02-17T10:40:19 IST" name="Oneplus_mobiles_prices" finished-at="2023-02-17T10:40:28 IST" duration-ms="9782" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹18,999]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus 11 5G (Titan Black, 8GB RAM, 128GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹56,999]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus 11 5G (Eternal Green, 16GB RAM, 256GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹61,999]]>
+            </line>
+            <line>
+              <![CDATA[(Renewed) OnePlus Nord 5G Gray Onyx, 8GB RAM, 128GB Storage    mobile price in amazon.in is ₹22,899]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus 11 5G (Titan Black, 16GB RAM, 256GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹61,999]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage) Upto 18M No Cost EMI with ICICI Amazon Pay Credit Card    mobile price in amazon.in is ₹56,999]]>
+            </line>
+            <line>
+              <![CDATA[(Renewed) OnePlus 5T (Midnight Black, 64GB)    mobile price in amazon.in is ₹10,599]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus 10T 5G (Moonstone Black, 16GB RAM, 256GB Storage)    mobile price in amazon.in is ₹55,999]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus 10T 5G (Moonstone Black, 12GB RAM, 256GB Storage)    mobile price in amazon.in is ₹54,999]]>
+            </line>
+            <line>
+              <![CDATA[(Renewed) OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)    mobile price in amazon.in is ₹13,699]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus 10T 5G (Jade Green, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹49,999]]>
+            </line>
+            <line>
+              <![CDATA[(Renewed) OnePlus 6T (Mirror Black, 6GB RAM, 128GB Storage)    mobile price in amazon.in is ₹38,299]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Oneplus_mobiles_prices -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0]" started-at="2023-02-17T10:40:28 IST" name="closeapp" finished-at="2023-02-17T10:40:46 IST" duration-ms="17214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Oneplus_mobiles_prices status=SUCCESS method=TS1_mobile.Oneplus_mobiles_prices()[pri:0, instance:Test_scripts.TS1_mobile@66d3eec0] output=OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)    mobile price in amazon.in is ₹28,999]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- Test_scripts.TS1_mobile -->
+      <class name="Test_scripts.TS2_fashion">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-02-17T10:40:46 IST" name="launch_browser" finished-at="2023-02-17T10:41:05 IST" duration-ms="19838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="Newest_Fastrack_watch()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-02-17T10:41:05 IST" name="Newest_Fastrack_watch" finished-at="2023-02-17T10:41:40 IST" duration-ms="34492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Newest arrival of fastrak watch is Fastrack Mens 55.50 x 11.30 x 48 mm Space-Disc Hand Black Dial Leather Analog Watch - NN3204KL01 (Not assigned,Not Assigned)]]>
+            </line>
+            <line>
+              <![CDATA[Unit price of the particular product is ₹ 2,425]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Newest_Fastrack_watch -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-02-17T10:41:40 IST" name="closeapp" finished-at="2023-02-17T10:41:51 IST" duration-ms="10881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Newest_Fastrack_watch status=SUCCESS method=TS2_fashion.Newest_Fastrack_watch()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0] output=Newest arrival of fastrak watch is Fastrack Mens 55.50 x 11.30 x 48 mm Space-Disc Hand Black Dial Leather Analog Watch - NN3204KL01 (Not assigned,Not Assigned)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-02-17T10:41:51 IST" name="launch_browser" finished-at="2023-02-17T10:42:32 IST" duration-ms="41494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="Random_FT()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-02-17T10:42:32 IST" name="Random_FT" finished-at="2023-02-17T10:43:30 IST" duration-ms="58011" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test script is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- Random_FT -->
-        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS2_fashion@618425b5]" started-at="2023-02-04T20:25:03 IST" name="closeapp" finished-at="2023-02-04T20:25:08 IST" duration-ms="4985" status="PASS">
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:Test_scripts.TS2_fashion@36916eb0]" started-at="2023-02-17T10:43:30 IST" name="closeapp" finished-at="2023-02-17T10:43:37 IST" duration-ms="6716" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Random_FT status=SUCCESS method=TS2_fashion.Random_FT()[pri:0, instance:Test_scripts.TS2_fashion@618425b5] output=Test script is pass]]]>
+                <![CDATA[[TestResult name=Random_FT status=SUCCESS method=TS2_fashion.Random_FT()[pri:0, instance:Test_scripts.TS2_fashion@36916eb0] output=Test script is pass]]]>
               </value>
             </param>
           </params>
@@ -33,6 +200,6 @@
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- Test_scripts.TS2_fashion -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
