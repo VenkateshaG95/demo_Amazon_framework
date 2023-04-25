@@ -16,13 +16,13 @@ public class Pom_01
 	@FindBy(xpath="//span[.='See all results']")
 	private WebElement see_all;
 	
-	@FindBy(xpath="//span[.='Apple iPhone 13 (128GB) - Midnight']")
-	private WebElement Iphone13;
+	@FindBy(xpath="(//span[.='Apple iPhone 14 (128 GB) - Midnight'])[2]")
+	private WebElement Iphone14;
 	
 	@FindBy(xpath="//input[@value='Add to Cart']")
 	private WebElement addTo_cart;
 	
-	@FindBy(xpath="//a[@href='/gp/cart/view.html?ref_=sw_gtc']")
+	@FindBy(xpath="//a[@href='/cart?ref_=sw_gtc']")
 	private WebElement goTOcart;
 	
 	@FindBy(xpath="//span[@class='a-list-item']/a/span/span")
@@ -109,9 +109,9 @@ public class Pom_01
 	{
 		return see_all;
 	}
-	public WebElement Apple_iphone13()
+	public WebElement Apple_iphone14()
 	{
-		return Iphone13;
+		return Iphone14;
 	}
 	public WebElement AddToCart_btn()
 	{

@@ -24,11 +24,11 @@ public class TS1_mobile extends Base_class
 		
 		wait.until(ExpectedConditions.elementToBeClickable(pmc.mobile_tab())).click();
 		
-		wait.until(ExpectedConditions.visibilityOf(pmc.SearchPro_text())).sendKeys("iphone 13");
+		wait.until(ExpectedConditions.visibilityOf(pmc.SearchPro_text())).sendKeys("iphone 14");
 		
 		pmc.Search_btn().click();
 			
-		wait.until(ExpectedConditions.visibilityOf(pmc.Apple_iphone13())).click();
+		wait.until(ExpectedConditions.visibilityOf(pmc.Apple_iphone14())).click();
 		
 		Utility_Methods1.window_handles(driver, 1);
 		
@@ -86,5 +86,4 @@ public class TS1_mobile extends Base_class
 			Reporter.log(mobile+"    mobile price in amazon.in is ₹"+price);
 		}
 	}
-	
-}
+	}	
